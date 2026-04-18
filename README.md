@@ -1,5 +1,3 @@
-# H-cking-N0te
-My cybersecurity learning journey - Tools, concepts and CTF writeups.
 # H-cking-N0te 🔐
 
 ## About Me
