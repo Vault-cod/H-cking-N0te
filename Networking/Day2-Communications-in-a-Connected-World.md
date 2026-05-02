@@ -1,4 +1,4 @@
-# Day 2 - Networking Fundamentals
+# Day 2 - Networking Fundamentals 
 Date: April 26, 2026
 Platform: Cisco NetAcad
 Module: Communications in a Connected World
