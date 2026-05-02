@@ -1,0 +1,151 @@
+# Day 3 - Networking Fundamentals (Continued)
+Date: April 27, 2026
+Platform: Cisco NetAcad
+
+---
+
+## 1. Clients and Servers
+
+All devices connected to a network are called hosts.
+Hosts can act as a client, server, or both.
+
+- Client = device that requests information
+  (your laptop visiting a website)
+- Server = device that provides information
+  (the website's computer responding)
+
+P2P Network (Peer-to-Peer)
+When one computer acts as both client and server.
+Common in homes and small businesses.
+- Easy to set up ✅
+- Low cost ✅
+- No centralized administration ❌
+- Less secure ❌
+- Slower performance ❌
+
+---
+
+## 2. ISP Connectivity Options
+
+ISP = the company connecting your home to the internet.
+ISPs connect to each other forming a global network.
+Traffic always takes the shortest path to destination.
+
+The internet backbone = fiber optic cables running
+underground and under the sea connecting continents.
+
+Two most common home connection types:
+- Cable — uses TV cable line, high speed,
+  always on, shared with neighbors
+- DSL — uses telephone line, split into 3 channels:
+  - Voice calls
+  - Download (faster)
+  - Upload (slightly slower)
+  Speed depends on distance from provider's office.
+
+Other connection types:
+- Cellular (4G/5G)
+- Satellite
+- Dial-up telephone
+
+---
+
+## 3. Wireless Networks & Mobile Connectivity
+
+How phones make calls:
+Phones use radio waves sent to cell towers.
+Signal travels tower to tower until it reaches
+the destination. This network is called GSM.
+
+Mobile network generations:
+- 3G → 4G → 4G-LTE → 5G
+- Currently 4G dominates worldwide
+
+Ways smartphones connect:
+
+| Technology | How it works | Range |
+|------------|-------------|-------|
+| GSM/4G/5G | Radio waves via cell towers | Long range |
+| WiFi | Radio waves via router | Short/medium range |
+| Bluetooth | Short range wireless | ~10 meters |
+| NFC | Very close proximity | Few centimeters |
+
+Bluetooth pairing process:
+1. Both devices turn on Bluetooth
+2. One device searches for others
+3. Other device must be in discoverable mode
+4. PIN may be requested to authenticate
+5. Devices share: name, class, services, specs
+
+WiFi Security best practices:
+- Never send passwords in unencrypted text
+- Use a VPN when sending sensitive data
+- Enable WPA2 or higher encryption
+- Enable security on home networks
+
+---
+
+## 4. Wireless Frequencies (Electromagnetic Spectrum)
+
+WiFi operates on two main frequency bands:
+- 2.4 GHz — longer range, slower, more interference
+  (IEEE 802.11 b/g/n/ad)
+- 5 GHz — shorter range, faster, less interference
+  (IEEE 802.11 a/n/ac/ad)
+
+Cordless phones use 902-928 MHz band.
+
+---
+
+## 5. Home Network Basics
+
+A home network = a small LAN connected to a router.
+
+Two networks in every home:
+- Public network — comes from ISP
+- Private network — your home devices
+
+Router ports:
+- Ethernet/LAN ports — wired devices (same local network)
+- Internet/WAN port — connects to ISP modem
+- Antennas — broadcast WiFi wirelessly
+
+DHCP = automatic IP address assignment.
+When a device connects to a router it gets an
+IP address automatically starting with 192.xxx.xxx.xxx
+
+Default Gateway = the router's IP address.
+It's the exit point from your local network
+to the outside internet.
+
+---
+
+## 6. Packet Tracer Lab — Configure a Wireless Router
+
+This was a hands-on simulation configuring a
+real home network from scratch.
+
+What was done:
+- Connected coaxial cables from ISP splitter
+  to cable modem and TV
+- Connected cable modem to router's WAN port
+- Connected PCs to router's LAN ports via ethernet
+- Accessed router settings through browser
+  at default gateway IP address (192.x.x.x)
+- Default login: admin/admin
+- Changed router password to secure it
+- Set max DHCP users to 10
+- Configured WiFi network name (SSID): MyHome
+- Set WiFi frequency to 2.4 GHz
+- Applied WPA2 Personal security with passphrase
+- Connected laptop wirelessly using passphrase
+- Verified all devices had internet connectivity
+
+Key security note from lab:
+Default passwords on real routers must be changed
+immediately — they are publicly known and
+exploited by attackers constantly.
+
+---
+
+## Key Terms
